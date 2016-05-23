@@ -153,7 +153,7 @@ RCT_EXPORT_METHOD(loadCatalog: (nonnull NSString *)localeCode
                           errorWithDomain: @"File not found"
                           code: 404
                           userInfo: @{ @"locale": localeCode }];
-        reject( error );
+        reject(@"file not found", @{ @"locale": localeCode } , error );
         return;
     }
 
