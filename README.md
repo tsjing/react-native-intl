@@ -2,6 +2,8 @@
 
 Native [Intl](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl) implementation and Translation extension. The extension loads translation catalog from [gettext `.mo` files](https://www.gnu.org/software/gettext/manual/html_node/MO-Files.html). Note that PO files are **not supported.**
 
+Please note this version only supports React Native 0.19 and newer.
+
 ## Features
 
 * [*Collator*](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Collator)  
@@ -16,7 +18,7 @@ Constructor for objects that format dates and times to match a specified locale.
 ## Installation
 
 ```
-$ npm install react-native-intl --save
+$ npm install react-native-intl-plus --save
 ```
 
 ### iOS Setup
